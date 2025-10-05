@@ -1,2 +1,13 @@
+# requirements.txt for QADF Streamlit app
+# NOTE: 'quantileADF.py' is a local module (do NOT add it here).
 streamlit
 pandas
+numpy
+scipy
+statsmodels
+matplotlib
+numba
+plotly
+openpyxl        # Excel .xlsx reader/writer
+xlsxwriter      # Excel writer engine used by pandas
+xlrd            # Enables reading legacy .xls files
